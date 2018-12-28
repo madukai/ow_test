@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: chartreuse;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+#nav {
+    background-color: blueviolet;
+    height: 50px;
+    position: relative;
+    bottom: 17px;
+}
+
+ul.menu {
+    padding-top: 5px;
+    padding-left: 17%;
+}
+
+#nav>ul.menu>li {
+    float: left;
+    list-style: outside none;
+    margin-left: 110px;
+}
+
+ul.menu>li>a {
+    font-size: 2em;
+    color: #ff3300;
+    text-decoration: none;
+}
+
+ul.menu>li>a:hover {
+    color: #990000;
+}
+
+.left_div {
+    background-color: #e3e403;
+    border: 1px #990000 solid;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+.left_div>.left_menu {
+    list-style: outside none;
+    margin-left: 35px;
+}
+
+.left_div>.left_menu>li {
+    margin-bottom: 15px;
+}
+
+.left_div>.left_menu>li>a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.left_div>.left_menu>li>a:hover {
+    text-decoration: underline;
+}
+
+#main_content {
+    height: 1000px;
+    position: relative;
+    bottom: 17px;
+    padding: 20px 20px 20px 275px;
+}
+
+h1 {
+    color: green;
+    font-size: 150%;
+}
+
+p.first_para {
+    color: blue;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+p.first_para>span {
+    font-weight: bold;
+}
+
+p.second_para {
+    color: purple;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+p.second_para>span {
+    font-weight: bold;
+}
+
+#main_content>.twitch_media {
+    border: 5px #0079e3 solid;
+    float: left;
+    width: 700px;
+    height: 400px;
+}
+
+.twitch_media>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.twitch_link {
+    padding: 2px 0px 4px;
+    display: block;
+    width: 345px;
+    font-weight: normal;
+    font-size: 1.0em;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.twitch_media_second {
+    border: 5px #0079e3 solid;
+    margin-left: 30px;
+    float: left;
+    width: 700px;
+    height: 400px;
+}
+
+.twitch_media_second>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.widget_box {
+    background-color: #006BB6;
+    height: 110px;
+    width: 190px;
+    z-index: 99;
+    position: absolute;
+    right: 25px;
+    padding: 25px;
+}
+
