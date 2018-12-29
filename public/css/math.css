@@ -1,0 +1,27 @@
+#mathStr {
+    font-size: 2em;
+    width: 75px;
+}
+
+.answer {
+    display: block;
+    font-weight: normal;
+    color: #000000;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 2em;
+    text-align: left;
+    font-family: courier new, courier, monospace;
+    line-height: 1;
+}
+
+label[for=mathStr] {
+    font-weight: normal;
+    color: #000000;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 2em;
+    text-align: left;
+    font-family: courier new, courier, monospace;
+    line-height: 1;
+}
