@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="css/main.css" rel="stylesheet" />
-    <link href="css/button.css" rel="stylesheet" />
-
 </head>
 
 <body>
@@ -23,7 +21,38 @@
     </div>
 
     <div id="main_content">
-        <div id="d_count">Current Request Count: <%= req_count %></div>
+        <div class="d_count">Current Request Count: <%= req_count %></div>
+
+        <p class="para_info">
+            <span>Closures</span> -- A closure is a feature in JavaScript where an inner function or nested function and it has access to the outer (enclosing) function’s variables — a scope chain.
+        </p>
+
+        <p class="para_info">
+            <span>Hoisting</span> -- All variable declarations using "var" are hoisted/lifted to the top of their functional/local scope (if declared inside a function) or to the top of their global scope (if declared outside of a function) regardless of where the actual declaration has been made.
+        </p>
+
+        <p class="para_info">
+            <span>Promise</span> -- Is an object that may produce a single value some time in the future. The result can be a successful (returns a code e.g 200) or fail (returns a code e.g. 400).
+        </p>
+
+        <p class="para_info">
+            <span>XMLHttpRequest</span> -- Is used to make a http request to a server or an API, to get the necessary data need.
+        </p>
+
+        <p class="favorite">Favorite JS features:</p>
+        <ul class="fav_js">
+            <li>Flexible, versatile and simple language</li>
+            <li>The core fundamentals are easy to grasp</li>
+            <li>Ability to nest a built-in function calls</li>
+            <li>Objects!!!</li>
+        </ul>
+
+        <p class="least">Least favorite JS features:</p>
+        <ul class="lst_js">
+            <li>Some of the syntax is a bit weird, at least for me</li>
+            <li>If your not carefully, you can easily lost track of variables and function calls and declaration</li>
+            <li>Reliance on web browser support, specifically old version of web browser (IE)</li>
+        </ul>
     </div>
 
 </body>

@@ -41,37 +41,6 @@ ul.menu>li>a:hover {
     color: #990000;
 }
 
-.left_div {
-    background-color: #e3e403;
-    border: 1px #990000 solid;
-    border-radius: 15px;
-    float: left;
-    position: relative;
-    margin-left: 10px;
-    margin-top: 40px;
-    width: 250px;
-    height: 250px;
-    z-index: 1;
-}
-
-.left_div>.left_menu {
-    list-style: outside none;
-    margin-left: 35px;
-}
-
-.left_div>.left_menu>li {
-    margin-bottom: 15px;
-}
-
-.left_div>.left_menu>li>a {
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.left_div>.left_menu>li>a:hover {
-    text-decoration: underline;
-}
-
 #main_content {
     height: 1000px;
     position: relative;
@@ -79,73 +48,47 @@ ul.menu>li>a:hover {
     padding: 20px 20px 20px 275px;
 }
 
-h1 {
-    color: green;
-    font-size: 150%;
+.d_count {
+    font-weight:normal;
+    color:#000000;
+    letter-spacing:1pt;
+    word-spacing:2pt;
+    font-size:2em;
+    text-align:left;
+    font-family:courier new, courier, monospace;
+    line-height:1;
+    margin-bottom: 20px;
 }
 
-p.first_para {
-    color: blue;
+p.para_info {
+    color: #5A2D81;
     font-size: 1.5em;
     padding-bottom: 10px;
 }
 
-p.first_para>span {
+p.para_info > span {
     font-weight: bold;
 }
 
-p.second_para {
-    color: purple;
+p.favorite {
+    margin-top: 5px;
+    color: #0008ff;
     font-size: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-p.second_para>span {
-    font-weight: bold;
+p.least {
+    color: #C8102E;
+    font-size: 1.5em;
+    padding-bottom: 5px;
 }
 
-#main_content>.twitch_media {
-    border: 5px #0079e3 solid;
-    float: left;
-    width: 700px;
-    height: 400px;
+ul.fav_js > li {
+    font-size: 1.4em;
 }
 
-.twitch_media>iframe {
-    width: 100%;
-    height: 100%;
+ul.lst_js > li {
+    font-size: 1.4em;
 }
 
-.twitch_link {
-    padding: 2px 0px 4px;
-    display: block;
-    width: 345px;
-    font-weight: normal;
-    font-size: 1.0em;
-    text-decoration: underline;
-    width: 100%;
-}
-
-.twitch_media_second {
-    border: 5px #0079e3 solid;
-    margin-left: 30px;
-    float: left;
-    width: 700px;
-    height: 400px;
-}
-
-.twitch_media_second>iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.widget_box {
-    background-color: #006BB6;
-    height: 110px;
-    width: 190px;
-    z-index: 99;
-    position: absolute;
-    right: 25px;
-    padding: 25px;
-}
 
